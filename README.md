@@ -38,6 +38,9 @@ The Excel dashboard includes the following visualizations:
 * Profit Analysis by Category
 * Interactive filters using slicers
 
+##Dashboard preview*
+Screenshot (118).png
+
 ## 🔍 Key Insights
 
 * Certain regions generate significantly higher sales compared to others.
