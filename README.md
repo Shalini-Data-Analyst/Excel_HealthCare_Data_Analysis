@@ -1,70 +1,133 @@
-# Sales Performance Analysis using Microsoft Excel
+# Healthcare Data Analysis using Microsoft Excel
 
-## 📊 Project Overview
+## 📌 Project Overview
 
-This project analyzes sales data to identify key trends, top-performing products, and regional sales performance. The goal of this analysis is to help businesses understand sales patterns and make better data-driven decisions.
+This project analyzes healthcare data to identify patterns related to patient health, hospital charges, and medical risk factors. The goal of the analysis is to uncover insights that can support better healthcare decisions and resource management.
+
+---
 
 ## 🎯 Problem Statement
 
-Businesses often struggle to track sales performance across different regions and product categories. This project aims to analyze sales data and build an interactive dashboard to highlight important insights.
+Healthcare organizations often need to understand how different health indicators such as age, BMI, smoking habits, and blood sugar levels influence medical outcomes and hospital costs.
+This project aims to analyze these factors and visualize important patterns using Microsoft Excel.
 
-## 🛠 Tools Used
+---
+
+## 📂 Dataset Description
+
+The dataset contains healthcare-related information for multiple patients, including:
+
+* Age
+* Body Mass Index (BMI)
+* Smoking Status
+* Blood Sugar Level
+* Cancer History
+* Number of Surgeries
+* Hospital Tier
+* Hospital Charges
+
+---
+
+## 🛠 Tools and Skills Used
 
 * Microsoft Excel
+* Data Cleaning
 * Pivot Tables
 * Pivot Charts
-* Slicers
-* Data Cleaning Techniques
+* Data Visualization
+* Dashboard Design
+* Data Analysis
 
-## 📁 Dataset
+---
 
-The dataset contains sales transaction information including:
+## 🔧 Data Preparation
 
-* Order Date
-* Product Category
-* Region
-* Sales
-* Profit
-* Quantity
+Before analysis, the dataset was cleaned and prepared by:
 
-## 📈 Dashboard Features
+* Checking for missing values
+* Verifying data consistency
+* Formatting numerical values
+* Organizing data for pivot table analysis
 
-The Excel dashboard includes the following visualizations:
+---
 
-* KPI cards showing Total Sales, Total Profit, and Total Orders
-* Monthly Sales Trend Analysis
-* Sales by Region
-* Top Product Categories by Sales
-* Profit Analysis by Category
-* Interactive filters using slicers
+## 📊 Data Analysis & Visualizations
 
-##Dashboard preview*
-Screenshot (118).png
+The following analyses were performed:
+
+1. Age vs Hospital Charges
+
+   * Examines how healthcare costs change with patient age.
+
+2. Smoking Status vs Cancer History
+
+   * Investigates the relationship between smoking habits and cancer occurrence.
+
+3. BMI vs Cancer Risk
+
+   * Analyzes how obesity levels may influence cancer risk.
+
+4. Blood Sugar vs Number of Surgeries
+
+   * Explores whether patients with higher blood sugar undergo more surgeries.
+
+5. Hospital Tier vs Hospital Charges
+
+   * Compares costs across different hospital tiers.
+
+---
+
+## 📈 Dashboard
+
+An interactive Excel dashboard was created to present the key insights visually.
+The dashboard includes multiple charts that help understand patient health patterns and healthcare costs.
+
+### Dashboard Features
+
+* KPI summary metrics
+* Trend analysis charts
+* Comparative analysis between health indicators
+* Visual insights for easier interpretation
+
+---
 
 ## 🔍 Key Insights
 
-* Certain regions generate significantly higher sales compared to others.
-* A small number of product categories contribute to the majority of revenue.
-* Sales trends vary across months, indicating seasonal demand patterns.
+* Higher BMI levels show a potential association with increased cancer history.
+* Hospital charges tend to increase with patient age.
+* Smoking status may influence the likelihood of cancer occurrence.
+* Patients with higher blood sugar levels tend to undergo more surgeries.
 
+---
 
-## 📂 Project Structure
+## 📷 Dashboard Preview
 
-sales-analysis-excel
+![Dashboard](images/Dashboard.png)
 
-* dataset.xlsx
-* sales_dashboard.xlsx
-* dashboard_preview.png
+---
+
+## 📁 Project Structure
+
+Excel_HealthCare_Data_Analysis
+
+* healthcare_dataset.xlsx
+* healthcare_dashboard.xlsx
+* images
+
+  * dashboard_preview.png
 * README.md
+
+---
 
 ## 🚀 Future Improvements
 
-* Automate data updates
-* Create advanced visualizations
-* Build the same dashboard using Power BI for comparison
+* Build a more advanced interactive dashboard
+* Perform statistical analysis using Python
+* Expand the dataset for deeper healthcare insights
+
+---
 
 ## 👩‍💻 Author
 
-Shalini M 
-
+Shalini M
 Aspiring Data Analyst skilled in Excel, SQL, Python, and Power BI.
